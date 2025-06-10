@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Fal1out",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Falloutin.sol": "Fallout"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Falloutin.sol": {
+			"keccak256": "0x566f5a7a1a163b0ecd3e5cd63bb78200a4eeecce8f666b4627320e76c71f7ecc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b7f9373df665a018bd43224a038ec8e08da15e16214abe92687a18221de0a30",
+				"dweb:/ipfs/Qmdo5z2ojnmpGiYuw9DhupYo62Hv5fbVZHag5qSLyKZLXj"
+			]
+		}
+	},
+	"version": 1
+}

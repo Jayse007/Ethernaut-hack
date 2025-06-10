@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "INITIAL_SUPPLY",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CoinNaught.sol": "NaughtCoin"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CoinNaught.sol": {
+			"keccak256": "0x3215dd1a604e67ecfe473bb6ebb4f1d92cb7f7b8f2a07d3d1465786d9742fc63",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f5d9cd99ca510955636c7e1d50ba76653bfd1101ed186a69355e5d42f419c91",
+				"dweb:/ipfs/QmYXvwkpXRG1JRhqbDzrrHBYF4rXPWzGwr8Cut2EZ1U5vw"
+			]
+		}
+	},
+	"version": 1
+}

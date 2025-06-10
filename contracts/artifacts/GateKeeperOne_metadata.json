@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "_gateKey",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GateKeeper.sol": "GateKeeperOne"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GateKeeper.sol": {
+			"keccak256": "0xe258288844506e629968db3d47688ec59f4339e05137243576ec18b4960f4797",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa6e38ede3cd4d6bd3bdda4e4f1b619f0181ba296c5750cab667849b5696758a",
+				"dweb:/ipfs/QmbooJbKW2hqbs3Et5od9XGKkkhrQgwyosZxRpvjYRY5e1"
+			]
+		}
+	},
+	"version": 1
+}
