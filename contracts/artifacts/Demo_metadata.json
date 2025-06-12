@@ -6,15 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "code",
+				"outputs": [
 					{
-						"internalType": "address",
-						"name": "_target",
-						"type": "address"
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -30,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Aliencodex.sol": "Hack"
+			"contracts/switch.sol": "Demo"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -44,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Aliencodex.sol": {
-			"keccak256": "0x4866f379f1f22bf1b9cdbbd9e16ca11a00196477f9aec99d1c153027db7750b3",
+		"contracts/switch.sol": {
+			"keccak256": "0x20111acd9c23b6729d2dea71b94694a75f0f6db7c6eecec6fd5eb8881f82440c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c51cb971165a8025a87ee2317d977ec22c7cb4c34f63c1acedbb045f79fa8e75",
-				"dweb:/ipfs/QmYurrYw3reNf8hLgW8SAYd4uB1sdQyhnz4ZqXgef1poFr"
+				"bzz-raw://94555513dcdf67c6ea0fd910220b5629c4a0bb8d46461f5734e8fd6ece1e644b",
+				"dweb:/ipfs/QmatPLVuPVUeBC3Fq5uhBwHkP6kFAsEp1wbwiE4e14L3jS"
 			]
 		}
 	},

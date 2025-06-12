@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "_gateKey",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "entrant",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/GateKeeperTwo.sol": "GatekeeperTwo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/GateKeeperTwo.sol": {
+			"keccak256": "0x4c1c2e3423413332652acdc1aabc3cbf62567c9d214198478ca9d91da503c737",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9869fa3a611505d3dd9b8db3d1b72f5d0e2e2c523a783910faab4457367ee58",
+				"dweb:/ipfs/QmYE1z4RWTEXMmyFJvnd5CL6zonTyByLbmtJJR1gSUFNa9"
+			]
+		}
+	},
+	"version": 1
+}

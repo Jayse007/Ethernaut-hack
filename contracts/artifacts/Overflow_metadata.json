@@ -6,15 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "overflow",
+				"outputs": [
 					{
-						"internalType": "address",
-						"name": "_target",
-						"type": "address"
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -30,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Aliencodex.sol": "Hack"
+			"contracts/overflow.sol": "Overflow"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -44,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Aliencodex.sol": {
-			"keccak256": "0x4866f379f1f22bf1b9cdbbd9e16ca11a00196477f9aec99d1c153027db7750b3",
+		"contracts/overflow.sol": {
+			"keccak256": "0xcf4ec185e2aeed745cfe7c69a7a0e527a1ed5cacac95e7839e8a5e3362afed92",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c51cb971165a8025a87ee2317d977ec22c7cb4c34f63c1acedbb045f79fa8e75",
-				"dweb:/ipfs/QmYurrYw3reNf8hLgW8SAYd4uB1sdQyhnz4ZqXgef1poFr"
+				"bzz-raw://345195a5288d2fc1691f9c3708d2f5fe4ee928cf61aae01d59d4d9c63338d9df",
+				"dweb:/ipfs/QmdpyxHz2tRdJobjFMttvLGTd8TcULZgfhcW65BipQEUHV"
 			]
 		}
 	},

@@ -8,13 +8,20 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_target",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
 					}
 				],
+				"name": "revise",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -30,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Aliencodex.sol": "Hack"
+			"contracts/Aliencodex.sol": "IAlienCodex"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum test.ActionChoices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultChoice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLargestValue",
+				"outputs": [
+					{
+						"internalType": "enum test.ActionChoices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSmallestValue",
+				"outputs": [
+					{
+						"internalType": "enum test.ActionChoices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setGoStraight",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enums.sol": "test"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enums.sol": {
+			"keccak256": "0x1c014915ed1563fe9c184251e90e0b4c6f80af39c3c1c3792c8eae0fe55ac761",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5fd2c08fc51163d3f722aed82e210376d10a9d8f87edef822fda6bc86779e352",
+				"dweb:/ipfs/QmaLfVgMNDP3qk9ivvfHesVQiauGhi4oj8srWnQ5H2rQCF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -8,7 +8,7 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
+						"internalType": "contract GatekeeperTwo",
 						"name": "_target",
 						"type": "address"
 					}
@@ -30,7 +30,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Aliencodex.sol": "Hack"
+			"contracts/artifacts/GateKeeperTwo.sol": "Hack"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -44,12 +44,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Aliencodex.sol": {
-			"keccak256": "0x4866f379f1f22bf1b9cdbbd9e16ca11a00196477f9aec99d1c153027db7750b3",
+		"contracts/artifacts/GateKeeperTwo.sol": {
+			"keccak256": "0x4c1c2e3423413332652acdc1aabc3cbf62567c9d214198478ca9d91da503c737",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c51cb971165a8025a87ee2317d977ec22c7cb4c34f63c1acedbb045f79fa8e75",
-				"dweb:/ipfs/QmYurrYw3reNf8hLgW8SAYd4uB1sdQyhnz4ZqXgef1poFr"
+				"bzz-raw://c9869fa3a611505d3dd9b8db3d1b72f5d0e2e2c523a783910faab4457367ee58",
+				"dweb:/ipfs/QmYE1z4RWTEXMmyFJvnd5CL6zonTyByLbmtJJR1gSUFNa9"
 			]
 		}
 	},
